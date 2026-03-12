@@ -14,22 +14,22 @@ cask "falcode" do
   on_macos do
     on_intel do
       url "https://github.com/victor-falcon/falcode/releases/download/v#{version}/falcode_darwin_amd64.tar.gz"
-      sha256 "f2182320140b61a1f9aa7246be2c4bd5073a8bcdda02cf2e425ca3da407837ec"
+      sha256 "5d8607963bc316a881630c3573de248d9d1c8679448bac8bf61f3ebf8777a6d1"
     end
     on_arm do
       url "https://github.com/victor-falcon/falcode/releases/download/v#{version}/falcode_darwin_arm64.tar.gz"
-      sha256 "ad3061149a026d1307b48d368e49f2b72ff6092d7cffd923ea45b0c5520c89b7"
+      sha256 "6ac698338c428e8b1708e0b6fc6f1cd20aab642186a1b7b8710aa5e70982c3d8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/victor-falcon/falcode/releases/download/v#{version}/falcode_linux_amd64.tar.gz"
-      sha256 "c0e530089fefb9a4470fed319116291f658ecf15cb4d87a988079ad64f5ce55b"
+      sha256 "498e1d0bc16f0b152674aed7bff771f9a9fe5a2c7bf4a5ced4de2db9838b2006"
     end
     on_arm do
       url "https://github.com/victor-falcon/falcode/releases/download/v#{version}/falcode_linux_arm64.tar.gz"
-      sha256 "08839b171d904954c251846179786be8926cb946170bc86b4bd43d364136e8e9"
+      sha256 "7f31eafb193993aab397a5a8c4f1423043d3358f11c7eb27b581296f9ff5e6b3"
     end
   end
 
