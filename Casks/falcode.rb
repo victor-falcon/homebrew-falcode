@@ -3,7 +3,7 @@ cask "falcode" do
   name "falcode"
   desc "Terminal multiplexer for multi-agent git worktree workflows"
   homepage "https://github.com/victor-falcon/falcode"
-  version "0.0.8"
+  version "0.0.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "falcode" do
   on_macos do
     on_intel do
       url "https://github.com/victor-falcon/falcode/releases/download/v#{version}/falcode_darwin_amd64.tar.gz"
-      sha256 "b4a0385bcf977f0b61f4e61060c39e67294b40c149cf08b11e5a23037fb99868"
+      sha256 "f2182320140b61a1f9aa7246be2c4bd5073a8bcdda02cf2e425ca3da407837ec"
     end
     on_arm do
       url "https://github.com/victor-falcon/falcode/releases/download/v#{version}/falcode_darwin_arm64.tar.gz"
-      sha256 "e221db7acae2f7361cc1f9533166b1f73f4112c8af713e9c0df8d407da06935d"
+      sha256 "ad3061149a026d1307b48d368e49f2b72ff6092d7cffd923ea45b0c5520c89b7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/victor-falcon/falcode/releases/download/v#{version}/falcode_linux_amd64.tar.gz"
-      sha256 "fdb8882ff1fd98928268946a77b06ce167f29743a8cf028a5ddff3bb812eedfb"
+      sha256 "c0e530089fefb9a4470fed319116291f658ecf15cb4d87a988079ad64f5ce55b"
     end
     on_arm do
       url "https://github.com/victor-falcon/falcode/releases/download/v#{version}/falcode_linux_arm64.tar.gz"
-      sha256 "14917f0e599d20cfc73296027ed755ea23183daa896c242be9da44e78ed9cfd9"
+      sha256 "08839b171d904954c251846179786be8926cb946170bc86b4bd43d364136e8e9"
     end
   end
 
